@@ -3,22 +3,32 @@ import io.appium.java_client.android.AndroidElement;
 import io.appium.java_client.remote.MobileCapabilityType;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import java.io.File;
-import java.net.MalformedURLException;
+import java.io.FileInputStream;
+import java.io.IOException;
 import java.net.URL;
+import java.util.Properties;
 
 public class device_invoke {
 
-    public static AndroidDriver<AndroidElement> Capablities() throws MalformedURLException{
+    public static AndroidDriver<AndroidElement> Capablities(String appName) throws IOException {
 
-        // Set application path
+        // Properties file configuration
+        FileInputStream fis = new FileInputStream("src/main/properties.java");
+        Properties prop = new Properties();
+        prop.load(fis);
+        prop.get(appName);
+
+        // Get value from properties file
         File appDir = new File("src");
-        File app = new File(appDir, "SehatKahani.apk");
+        File app = new File(appDir, (String) prop.get(appName));
+        String Device=(String)  prop.get("Device") ;
+        String ServerInstance=(String) prop.get("ServerInstance");
 
         // Set device configuration
         DesiredCapabilities capabilities = new DesiredCapabilities();
-        capabilities.setCapability(MobileCapabilityType.DEVICE_NAME, "Nexus5");
+        capabilities.setCapability(MobileCapabilityType.DEVICE_NAME, Device);
         capabilities.setCapability(MobileCapabilityType.APP, app.getAbsolutePath());
-        AndroidDriver<AndroidElement> driver = new AndroidDriver<>(new URL("http://127.0.0.1:4723/wd/hub"), capabilities);
+        AndroidDriver<AndroidElement> driver = new AndroidDriver<>(new URL(ServerInstance), capabilities);
 
         // Get session information
         System.out.println(driver.currentActivity());
