@@ -1,3 +1,5 @@
+package utlilities;
+
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.AndroidElement;
 import io.appium.java_client.remote.MobileCapabilityType;
@@ -13,7 +15,7 @@ public class device_invoke {
     public static AndroidDriver<AndroidElement> Capablities(String appName) throws IOException {
 
         // Properties file configuration
-        FileInputStream fis = new FileInputStream("src/main/properties.java");
+        FileInputStream fis = new FileInputStream("src/main/config.properties");
         Properties prop = new Properties();
         prop.load(fis);
         prop.get(appName);
