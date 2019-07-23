@@ -19,28 +19,34 @@ public class login extends device_invoke {
         System.out.println( "Device is invoked" );
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
+        // Verifying login flow
+        System.out.println("Verifying login flow");
+
         // login page object class instance
-        loginPage lp = new loginPage(driver);
+        loginPage loginPageobject = new loginPage(driver);
 
         // Click on continue button
-        lp.continueElement.click();
+        loginPageobject.getContinueElement().click();
 
         //Enter email field
-        lp.emailElement.sendKeys("sabakhan@yopmail.com");;
+        loginPageobject.getEmailElement().sendKeys("sabakhan@yopmail.com");
 
         //Enter password field
-        lp.passElement.sendKeys("test1234");
+        loginPageobject.getPassElement().sendKeys("test1234");
 
         //hide keyboard
+        System.out.println("Closing the keyboard");
         driver.hideKeyboard();
 
         // Click signin button
-        lp.signinElement.click();
+        loginPageobject.getSigninElement().click();
 
         // Verify the dashboard text
-        String dashText = lp.dashbrdElement.getText();
+        String dashText = loginPageobject.getDashbrdElement().getText();
         Assert.assertEquals(dashText,"My Appointments");
         System.out.println(dashText);
 
+        // Login flow verified
+        System.out.println("User has successfully log in to the system");
     }
 }
