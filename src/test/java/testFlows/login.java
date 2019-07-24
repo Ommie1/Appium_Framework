@@ -14,6 +14,8 @@ public class login extends device_invoke {
     @Test
     public void loginFlow() throws InterruptedException, IOException {
 
+        // Start appium server
+        startServer();
         // Device instance
         AndroidDriver<AndroidElement> driver= device_invoke.Capablities("HealthCareApp");
         System.out.println( "Device is invoked" );

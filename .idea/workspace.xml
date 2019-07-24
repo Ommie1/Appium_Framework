@@ -6,11 +6,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="338d91e2-4828-4219-922a-a18ca9b59fc2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Appium_Research.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pageObjects/loginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageObjects/loginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utlilities/device_invoke.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utlilities/device_invoke.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/testFlows/login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testFlows/login.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -32,8 +31,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="35" selection-end-line="62" selection-end-column="10" />
+            <state relative-caret-position="1564">
+              <caret line="92" column="21" selection-start-line="92" selection-start-column="21" selection-end-line="92" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -41,8 +40,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/testFlows/login.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="107">
-              <caret line="36" column="23" lean-forward="true" selection-start-line="36" selection-start-column="23" selection-end-line="36" selection-end-column="23" />
+            <state relative-caret-position="289">
+              <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -53,8 +52,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/pageObjects/loginPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="24" column="40" lean-forward="true" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="40" />
+            <state relative-caret-position="408">
+              <caret line="24" column="40" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -83,8 +82,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/utlilities/device_invoke.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="18" column="43" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
+            <state relative-caret-position="102">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -119,9 +118,9 @@
         <option value="$PROJECT_DIR$/src/main/java/utlility/device_invoke.java" />
         <option value="$PROJECT_DIR$/src/main/config.properties" />
         <option value="$PROJECT_DIR$/testng.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/utlilities/device_invoke.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/pageObjects/loginPage.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/utlilities/device_invoke.java" />
         <option value="$PROJECT_DIR$/src/test/java/testFlows/login.java" />
       </list>
     </option>
@@ -144,6 +143,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -181,7 +181,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -293,21 +292,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="E__Appium_Research_testng_xml - 2019.07.23 at 14h 06m 20s.xml">
-      <configuration name="E:/Appium_Research/testng.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="E__Appium_Research_testng_xml - 2019.07.23 at 16h 39m 03s.xml">
-      <configuration name="E:/Appium_Research/testng.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="E__Appium_Research_testng_xml - 2019.07.23 at 16h 42m 26s.xml">
-      <configuration name="E:/Appium_Research/testng.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="E__Appium_Research_testng_xml - 2019.07.23 at 16h 47m 41s.xml">
-      <configuration name="E:/Appium_Research/testng.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="E__Appium_Research_testng_xml - 2019.07.23 at 17h 56m 33s.xml">
-      <configuration name="E:/Appium_Research/testng.xml" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="E__Appium_Research_testng_xml - 2019.07.23 at 17h 58m 00s.xml">
       <configuration name="E:/Appium_Research/testng.xml" configurationId="TestNG" />
     </history-entry>
@@ -323,12 +307,27 @@
     <history-entry file="E__Appium_Research_testng_xml - 2019.07.23 at 19h 07m 04s.xml">
       <configuration name="E:/Appium_Research/testng.xml" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="E__Appium_Research_testng_xml - 2019.07.23 at 19h 09m 57s.xml">
+      <configuration name="E:/Appium_Research/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="E__Appium_Research_testng_xml - 2019.07.24 at 11h 41m 10s.xml">
+      <configuration name="E:/Appium_Research/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="E__Appium_Research_testng_xml - 2019.07.24 at 11h 42m 06s.xml">
+      <configuration name="E:/Appium_Research/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="E__Appium_Research_testng_xml - 2019.07.24 at 11h 43m 42s.xml">
+      <configuration name="E:/Appium_Research/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="E__Appium_Research_testng_xml - 2019.07.24 at 12h 17m 02s.xml">
+      <configuration name="E:/Appium_Research/testng.xml" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3290469" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3343419" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -380,13 +379,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/testFlows.java" />
     <entry file="file://$PROJECT_DIR$/src/main/properties.java" />
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="35" selection-end-line="62" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/testng.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -401,10 +393,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1564">
+          <caret line="92" column="21" selection-start-line="92" selection-start-column="21" selection-end-line="92" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/utlilities/device_invoke.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="18" column="43" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
+        <state relative-caret-position="102">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -413,8 +412,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pageObjects/loginPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="24" column="40" lean-forward="true" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="40" />
+        <state relative-caret-position="408">
+          <caret line="24" column="40" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -423,8 +422,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/testFlows/login.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="36" column="23" lean-forward="true" selection-start-line="36" selection-start-column="23" selection-end-line="36" selection-end-column="23" />
+        <state relative-caret-position="289">
+          <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
