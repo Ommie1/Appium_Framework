@@ -5,12 +5,7 @@
     <option name="CUSTOM_SCOPE_NAME" value="All Places" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="338d91e2-4828-4219-922a-a18ca9b59fc2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Java_Basics/Java_If.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Java_Basics/Java_Switch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Java_Basics/Java_Datatype.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java_Basics/Java_Datatype.java" afterDir="false" />
-    </list>
+    <list default="true" id="338d91e2-4828-4219-922a-a18ca9b59fc2" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -90,7 +85,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Java_Basics/Java_Switch.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
+            <state relative-caret-position="170">
               <caret line="16" column="22" lean-forward="true" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
             </state>
           </provider>
@@ -173,7 +168,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="310" />
     <option name="width" value="657" />
     <option name="height" value="688" />
@@ -512,7 +507,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Java_Basics/Java_Switch.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
+        <state relative-caret-position="170">
           <caret line="16" column="22" lean-forward="true" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
         </state>
       </provider>
