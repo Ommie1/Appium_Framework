@@ -5,7 +5,13 @@
     <option name="CUSTOM_SCOPE_NAME" value="All Places" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="338d91e2-4828-4219-922a-a18ca9b59fc2" name="Default Changelist" comment="" />
+    <list default="true" id="338d91e2-4828-4219-922a-a18ca9b59fc2" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utlilities/device_invoke.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utlilities/device_invoke.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/utlilities/device_invoke.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/utlilities/device_invoke.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/testFlows/login.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/testFlows/login.class" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,16 +26,22 @@
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
-  <component name="FavoritesManager">
-    <favorites_list name="appium_research" />
-  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="17" column="40" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/testFlows/login.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="103">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="170">
+              <caret line="10" column="37" lean-forward="true" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -37,7 +49,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/utlilities/device_invoke.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
@@ -47,55 +59,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Java_Basics/HelloWorld.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Java_Basics/Java_Variable.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="328">
-              <caret line="40" column="4" lean-forward="true" selection-start-line="40" selection-start-column="4" selection-end-line="40" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Java_Basics/Java_Datatype.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="3" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Java_Basics/Java_If.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Java_Basics/Java_Switch.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="16" column="22" lean-forward="true" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/utlilities/appiumEmulatorsession.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="328">
-              <caret line="29" column="24" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
+            <state relative-caret-position="255">
+              <caret line="18" column="40" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="40" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pageObjects/loginPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="24" column="40" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -152,12 +131,8 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/utlilities/appiumEmulatorsession.java" />
         <option value="$PROJECT_DIR$/src/test/java/testFlows/login.java" />
+        <option value="$PROJECT_DIR$/src/Basic_Java/helloworld.java" />
         <option value="$PROJECT_DIR$/src/main/java/utlilities/device_invoke.java" />
-        <option value="$PROJECT_DIR$/src/Java_Basics/HelloWorld.java" />
-        <option value="$PROJECT_DIR$/src/Java_Basics/Java_Variable.java" />
-        <option value="$PROJECT_DIR$/src/Java_Basics/Java_If.java" />
-        <option value="$PROJECT_DIR$/src/Java_Basics/Java_Datatype.java" />
-        <option value="$PROJECT_DIR$/src/Java_Basics/Java_Switch.java" />
       </list>
     </option>
   </component>
@@ -189,24 +164,10 @@
             <path>
               <item name="appium_research" type="b2602c69:ProjectViewProjectNode" />
               <item name="Appium_Framework" type="462c0819:PsiDirectoryNode" />
-              <item name="Appium_Framework" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="appium_research" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Appium_Framework" type="462c0819:PsiDirectoryNode" />
-              <item name="Appium_Framework" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="appium_research" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Appium_Framework" type="462c0819:PsiDirectoryNode" />
-              <item name="Appium_Framework" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Java_Basics" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="appium_research" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Appium_Framework" type="462c0819:PsiDirectoryNode" />
               <item name="Appium_Framework" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
@@ -214,19 +175,23 @@
             <path>
               <item name="appium_research" type="b2602c69:ProjectViewProjectNode" />
               <item name="Appium_Framework" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="appium_research" type="b2602c69:ProjectViewProjectNode" />
               <item name="Appium_Framework" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="appium_research" type="b2602c69:ProjectViewProjectNode" />
               <item name="Appium_Framework" type="462c0819:PsiDirectoryNode" />
-              <item name="Appium_Framework" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="utlilities" type="462c0819:PsiDirectoryNode" />
+              <item name="testFlows" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -238,10 +203,10 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/java" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
@@ -265,42 +230,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Java_Switch">
-    <configuration name="HelloWorld" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HelloWorld" />
-      <module name="appium_research" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Java_Datatype" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Java_Datatype" />
-      <module name="appium_research" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Java_If" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Java_If" />
-      <module name="appium_research" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Java_Switch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Java_Switch" />
-      <module name="appium_research" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Java_Variable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Java_Variable" />
-      <module name="appium_research" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.E:/Appium_Research/testng.xml">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="invoke" />
       <module name="Appium_Research" />
@@ -308,13 +238,60 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="device_invoke" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="utlilities.device_invoke" />
+      <module name="Appium_Research" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="login" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="testFlows.login" />
+      <module name="Appium_Research" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="E:/Appium_Research/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Appium_Research" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="login" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Appium_Research" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="testFlows.login" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="login.loginFlow" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Appium_Research" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="testFlows.login" />
+      <option name="METHOD_NAME" value="loginFlow" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Java_Switch" />
-        <item itemvalue="Application.Java_If" />
-        <item itemvalue="Application.Java_Datatype" />
-        <item itemvalue="Application.Java_Variable" />
-        <item itemvalue="Application.HelloWorld" />
+        <item itemvalue="TestNG.E:/Appium_Research/testng.xml" />
+        <item itemvalue="TestNG.login" />
+        <item itemvalue="TestNG.login.loginFlow" />
+        <item itemvalue="Application.login" />
+        <item itemvalue="Application.device_invoke" />
       </list>
     </recent_temporary>
   </component>
@@ -332,18 +309,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="E__Appium_Research_testng_xml - 2019.07.24 at 16h 36m 21s.xml">
-      <configuration name="E:/Appium_Research/testng.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="E__Appium_Research_testng_xml - 2019.07.24 at 16h 38m 08s.xml">
-      <configuration name="E:/Appium_Research/testng.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="E__Appium_Research_testng_xml - 2019.07.24 at 16h 43m 41s.xml">
-      <configuration name="E:/Appium_Research/testng.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="E__Appium_Research_testng_xml - 2019.07.24 at 16h 44m 54s.xml">
-      <configuration name="E:/Appium_Research/testng.xml" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="E__Appium_Research_testng_xml - 2019.07.24 at 16h 46m 15s.xml">
       <configuration name="E:/Appium_Research/testng.xml" configurationId="TestNG" />
     </history-entry>
@@ -359,7 +324,19 @@
     <history-entry file="E__Appium_Research_testng_xml - 2019.07.24 at 17h 29m 36s.xml">
       <configuration name="E:/Appium_Research/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="E__Appium_Research_testng_xml - 2019.07.25 at 16h 02m 51s.xml">
+    <history-entry file="E__Appium_Research_testng_xml - 2019.07.24 at 17h 32m 26s.xml">
+      <configuration name="E:/Appium_Research/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="E__Appium_Research_testng_xml - 2019.07.29 at 17h 47m 41s.xml">
+      <configuration name="E:/Appium_Research/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="E__Appium_Research_testng_xml - 2019.07.29 at 17h 49m 59s.xml">
+      <configuration name="E:/Appium_Research/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="E__Appium_Research_testng_xml - 2019.07.29 at 17h 53m 45s.xml">
+      <configuration name="E:/Appium_Research/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="E__Appium_Research_testng_xml - 2019.07.29 at 18h 05m 51s.xml">
       <configuration name="E:/Appium_Research/testng.xml" configurationId="TestNG" />
     </history-entry>
   </component>
@@ -367,13 +344,13 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49918166" visible="true" weight="0.22239032" />
-      <window_info id="Structure" order="1" sideWeight="0.5008183" side_tool="true" weight="0.33963692" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.33963692" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" sideWeight="0.5008183" side_tool="true" weight="0.33963692" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3289689" />
@@ -419,13 +396,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/testFlows.java" />
     <entry file="file://$PROJECT_DIR$/src/main/properties.java" />
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="40" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Basic_Java/helloworld.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/pageObjects/loginPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
@@ -450,10 +421,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="17" column="40" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/testFlows/login.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="170">
+          <caret line="10" column="37" lean-forward="true" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -462,8 +440,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/utlilities/appiumEmulatorsession.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="29" column="24" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
+        <state relative-caret-position="255">
+          <caret line="18" column="40" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -474,41 +452,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="54" selection-start-line="5" selection-start-column="54" selection-end-line="5" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Java_Basics/HelloWorld.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Java_Basics/Java_Variable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="40" column="4" lean-forward="true" selection-start-line="40" selection-start-column="4" selection-end-line="40" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Java_Basics/Java_If.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Java_Basics/Java_Datatype.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="3" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Java_Basics/Java_Switch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="16" column="22" lean-forward="true" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
         </state>
       </provider>
     </entry>
