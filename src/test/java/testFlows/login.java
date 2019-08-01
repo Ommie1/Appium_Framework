@@ -15,7 +15,6 @@ public class login extends device_invoke {
     @Test
     public void loginFlow() throws InterruptedException, IOException {
 
-
         AndroidDriver<AndroidElement> driver= device_invoke.Capablities("HealthCareApp");
         System.out.println( "Device is invoked" );
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);

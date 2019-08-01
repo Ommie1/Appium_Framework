@@ -14,11 +14,6 @@ public class device_invoke{
 
     public static AndroidDriver<AndroidElement> Capablities(String appName) throws IOException, InterruptedException {
 
-        // Open Appium and Emulator
-//        appiumEmulatorsession aes = new appiumEmulatorsession();
-//        aes.openEmulator();
-//        aes.startAppium();
-
         // Properties file configuration
         FileInputStream fis = new FileInputStream("src/main/config.properties");
         Properties prop = new Properties();

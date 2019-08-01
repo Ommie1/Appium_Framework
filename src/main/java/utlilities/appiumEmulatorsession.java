@@ -11,7 +11,7 @@ public class appiumEmulatorsession {
 
     public void startAppium()
     {
-        AppiumDriverLocalService service = new AppiumServiceBuilder().usingPort(4725).build();
+        AppiumDriverLocalService service = new AppiumServiceBuilder().usingPort(4723).build();
         service.start();
     }
 
