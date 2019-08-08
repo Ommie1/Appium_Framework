@@ -1,0 +1,5 @@
+16:35:38.529 [main] INFO  pageObjects.loginPage - Taping on continue button
+16:35:42.196 [main] INFO  pageObjects.loginPage - Entering email on login form
+16:35:49.165 [main] INFO  pageObjects.loginPage - Entering password on login form
+16:35:57.076 [main] INFO  pageObjects.loginPage - Clicking on sign in button on login form
+16:35:57.492 [main] INFO  pageObjects.loginPage - Verifying text on dashboard after login

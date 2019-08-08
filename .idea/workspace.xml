@@ -6,19 +6,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="338d91e2-4828-4219-922a-a18ca9b59fc2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/utlilities/ExtentReporterNG.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Test_Report2019.08.01.15.18.18.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/htmlreport.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SehatKahani.apk" beforeDir="false" afterPath="$PROJECT_DIR$/src/SehatKahani.apk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/utlilities/appiumEmulatorsession.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utlilities/appiumEmulatorsession.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/utlilities/device_invoke.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utlilities/device_invoke.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pageObjects/loginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageObjects/loginPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/testFlows/login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testFlows/login.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/config.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/utlilities/appiumEmulatorsession.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/utlilities/appiumEmulatorsession.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/utlilities/device_invoke.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/utlilities/device_invoke.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/appium_research.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pageObjects/loginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pageObjects/loginPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/utlilities/ExtentReporterNG.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/utlilities/ExtentReporterNG.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/testFlows/login.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/testFlows/login.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -39,8 +37,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="13" lean-forward="true" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+            <state relative-caret-position="136">
+              <caret line="23" column="50" selection-start-line="23" selection-start-column="50" selection-end-line="23" selection-end-column="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/log4j2.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="328">
+              <caret line="20" column="16" lean-forward="true" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Reports/Test_Report2019.08.08.16.25.11.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -48,8 +64,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/testFlows/login.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="21" column="31" lean-forward="true" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
+            <state relative-caret-position="85">
+              <caret line="16" column="75" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="75" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -61,52 +77,36 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/pageObjects/loginPage.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="328">
-              <caret line="39" column="4" lean-forward="true" selection-start-line="39" selection-start-column="4" selection-end-line="39" selection-end-column="4" />
+              <caret line="64" selection-start-line="64" selection-end-line="64" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Logs/test_logs.log">
+          <provider selected="true" editor-type-id="LogFileEditorProvider" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/utlilities/device_invoke.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="98">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/utlilities/appiumEmulatorsession.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/testng.xml">
-          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
-              <caret line="4" column="40" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
+              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/utlilities/ExtentReporterNG.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="60" column="16" lean-forward="true" selection-start-line="60" selection-start-column="16" selection-end-line="60" selection-end-column="16" />
+            <state relative-caret-position="221">
+              <caret line="24" column="78" selection-start-line="24" selection-start-column="78" selection-end-line="24" selection-end-column="121" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -117,8 +117,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/config.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            <state relative-caret-position="17">
+              <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -131,6 +131,11 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>buil</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -149,20 +154,26 @@
         <option value="$PROJECT_DIR$/src/main/java/device_invoke.java" />
         <option value="$PROJECT_DIR$/src/main/java/utlility/device_invoke.java" />
         <option value="$PROJECT_DIR$/src/main/config.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/pageObjects/loginPage.java" />
         <option value="$PROJECT_DIR$/src/Basic_Java/helloworld.java" />
         <option value="$PROJECT_DIR$/src/main/java/ExtentReportsClass.java" />
         <option value="$PROJECT_DIR$/src/main/resources/ExtentReportsClass.java" />
         <option value="$PROJECT_DIR$/src/main/java/extendReports/extent-config.xml" />
         <option value="$PROJECT_DIR$/src/main/java/extendReports/ExtentReportsClass.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/resources/ExtentReporterNG.java" />
         <option value="$PROJECT_DIR$/src/main/java/resources/Listeners.java" />
         <option value="$PROJECT_DIR$/src/main/java/utlilities/appiumEmulatorsession.java" />
-        <option value="$PROJECT_DIR$/src/test/java/testFlows/login.java" />
         <option value="$PROJECT_DIR$/src/main/java/utlilities/device_invoke.java" />
         <option value="$PROJECT_DIR$/testng.xml" />
         <option value="$PROJECT_DIR$/src/main/java/utlilities/ExtentReporterNG.java" />
+        <option value="$PROJECT_DIR$/src/log4j.properties" />
+        <option value="$PROJECT_DIR$/src/main/resources/log4j.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/log4jPackage/logClass.java" />
+        <option value="$PROJECT_DIR$/src/main/java/logging/log4j2.properties" />
+        <option value="$PROJECT_DIR$/src/main/resources/log4j2.properties" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/log4j2.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/testFlows/login.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pageObjects/loginPage.java" />
       </list>
     </option>
   </component>
@@ -173,7 +184,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="467" />
     <option name="width" value="657" />
     <option name="height" value="688" />
@@ -184,7 +195,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -195,88 +205,40 @@
             <path>
               <item name="appium_research" type="b2602c69:ProjectViewProjectNode" />
               <item name="Appium_Framework" type="462c0819:PsiDirectoryNode" />
-              <item name="Reports" type="462c0819:PsiDirectoryNode" />
+              <item name="Logs" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="appium_research" type="b2602c69:ProjectViewProjectNode" />
               <item name="Appium_Framework" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="appium_research" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Appium_Framework" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="appium_research" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Appium_Framework" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="appium_research" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Appium_Framework" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="pageObjects" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="appium_research" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Appium_Framework" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="utlilities" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="appium_research" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Appium_Framework" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="appium_research" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Appium_Framework" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="appium_research" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Appium_Framework" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="testFlows" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="CatdeaLogs" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/java" />
-    <property name="last_opened_file_path" value="E:/TestRepo/AppiumFramework" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\My_Framework\Appium_Framework\src\main\resources" />
+      <recent name="E:\My_Framework\Appium_Framework\src" />
+      <recent name="E:\My_Framework\Appium_Framework\src\main\java\logging" />
       <recent name="E:\Appium_Framework_RnD\Appium_Framework\src" />
       <recent name="E:\Appium_Framework_RnD\Appium_Framework\src\test" />
-      <recent name="E:\Appium_Framework_RnD\Appium_Framework\src\main\resources" />
-      <recent name="E:\Appium_Research\src\main" />
-      <recent name="E:\Appium_Research\src" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -389,42 +351,42 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="E__Appium_Framework_RnD_Appium_Framework_testng_xml - 2019.07.31 at 12h 14m 35s.xml">
+    <history-entry file="E__Appium_Framework_RnD_Appium_Framework_testng_xml - 2019.08.07 at 17h 05m 19s.xml">
       <configuration name="E:/Appium_Framework_RnD/Appium_Framework/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="E__Appium_Framework_RnD_Appium_Framework_testng_xml - 2019.07.31 at 12h 21m 33s.xml">
+    <history-entry file="E__Appium_Framework_RnD_Appium_Framework_testng_xml - 2019.08.07 at 17h 07m 57s.xml">
       <configuration name="E:/Appium_Framework_RnD/Appium_Framework/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="E__Appium_Framework_RnD_Appium_Framework_testng_xml - 2019.07.31 at 12h 23m 26s.xml">
+    <history-entry file="E__Appium_Framework_RnD_Appium_Framework_testng_xml - 2019.08.07 at 17h 14m 27s.xml">
       <configuration name="E:/Appium_Framework_RnD/Appium_Framework/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="E__Appium_Framework_RnD_Appium_Framework_testng_xml - 2019.07.31 at 12h 28m 30s.xml">
+    <history-entry file="E__Appium_Framework_RnD_Appium_Framework_testng_xml - 2019.08.07 at 17h 25m 54s.xml">
       <configuration name="E:/Appium_Framework_RnD/Appium_Framework/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="E__Appium_Framework_RnD_Appium_Framework_testng_xml - 2019.07.31 at 12h 53m 21s.xml">
+    <history-entry file="E__Appium_Framework_RnD_Appium_Framework_testng_xml - 2019.08.07 at 17h 27m 44s.xml">
       <configuration name="E:/Appium_Framework_RnD/Appium_Framework/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="E__Appium_Framework_RnD_Appium_Framework_testng_xml - 2019.07.31 at 18h 39m 00s.xml">
+    <history-entry file="E__Appium_Framework_RnD_Appium_Framework_testng_xml - 2019.08.07 at 17h 31m 21s.xml">
       <configuration name="E:/Appium_Framework_RnD/Appium_Framework/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="E__Appium_Framework_RnD_Appium_Framework_testng_xml - 2019.08.01 at 15h 06m 52s.xml">
+    <history-entry file="E__Appium_Framework_RnD_Appium_Framework_testng_xml - 2019.08.07 at 17h 32m 58s.xml">
       <configuration name="E:/Appium_Framework_RnD/Appium_Framework/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="E__Appium_Framework_RnD_Appium_Framework_testng_xml - 2019.08.01 at 15h 08m 51s.xml">
+    <history-entry file="E__Appium_Framework_RnD_Appium_Framework_testng_xml - 2019.08.08 at 16h 25m 13s.xml">
       <configuration name="E:/Appium_Framework_RnD/Appium_Framework/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="E__Appium_Framework_RnD_Appium_Framework_testng_xml - 2019.08.01 at 15h 12m 33s.xml">
+    <history-entry file="E__Appium_Framework_RnD_Appium_Framework_testng_xml - 2019.08.08 at 16h 28m 49s.xml">
       <configuration name="E:/Appium_Framework_RnD/Appium_Framework/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="E__Appium_Framework_RnD_Appium_Framework_testng_xml - 2019.08.01 at 15h 18m 20s.xml">
+    <history-entry file="E__Appium_Framework_RnD_Appium_Framework_testng_xml - 2019.08.08 at 16h 36m 10s.xml">
       <configuration name="E:/Appium_Framework_RnD/Appium_Framework/testng.xml" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2246596" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23524962" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -433,7 +395,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3289689" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3289689" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -512,54 +474,10 @@
     <entry file="file://$PROJECT_DIR$/src/main/resources/ExtentReportsClass.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/resources/ExtentReporterNG.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/resources/Listeners.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/config.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pageObjects/loginPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="39" column="4" lean-forward="true" selection-start-line="39" selection-start-column="4" selection-end-line="39" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/utlilities/appiumEmulatorsession.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/utlilities/device_invoke.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Reports/htmlreport.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="4" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="13" lean-forward="true" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -570,10 +488,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/testFlows/login.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/utlilities/appiumEmulatorsession.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="21" column="31" lean-forward="true" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
+        <state relative-caret-position="493">
+          <caret line="29" column="27" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Reports/Test_Report2019.08.01.15.18.18.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="50" selection-start-line="6" selection-start-column="50" selection-end-line="6" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/log4j.properties" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/log4jPackage/logClass.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/utlilities/device_invoke.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -582,11 +520,89 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/utlilities/ExtentReporterNG.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="60" column="16" lean-forward="true" selection-start-line="60" selection-start-column="16" selection-end-line="60" selection-end-column="16" />
+        <state relative-caret-position="221">
+          <caret line="24" column="78" selection-start-line="24" selection-start-column="78" selection-end-line="24" selection-end-column="121" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/config.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Logs/propertieslogs.log">
+      <provider editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="LogFileEditorProvider" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j2.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="28" lean-forward="true" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.classpath">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Reports/Test_Report2019.08.06.19.37.53.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logs/prints.log">
+      <provider selected="true" editor-type-id="LogFileEditorProvider" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="23" column="50" selection-start-line="23" selection-start-column="50" selection-end-line="23" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Reports/Test_Report2019.08.08.16.25.11.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestLogs/test_logs.log">
+      <provider selected="true" editor-type-id="LogFileEditorProvider" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/testFlows/login.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="16" column="75" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="75" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pageObjects/loginPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="64" selection-start-line="64" selection-end-line="64" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Logs/test_logs.log">
+      <provider selected="true" editor-type-id="LogFileEditorProvider" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j2.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="20" column="16" lean-forward="true" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
         </state>
       </provider>
     </entry>

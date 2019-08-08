@@ -4,9 +4,13 @@ import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.AndroidElement;
 import io.appium.java_client.pagefactory.AndroidFindBy;
 import io.appium.java_client.pagefactory.AppiumFieldDecorator;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.support.PageFactory;
 
 public class loginPage {
+
+    public static Logger log = LogManager.getLogger(loginPage.class.getName());
 
     public loginPage(AndroidDriver<AndroidElement> driver){
         PageFactory.initElements(new AppiumFieldDecorator(driver), this);
@@ -32,29 +36,29 @@ public class loginPage {
     //-----------------------------------------------------------------------------------------------
 
     public AndroidElement getContinueElement() {
-        System.out.println("Taping on continue button");
+        log.info("Taping on continue button");
         return continueElement;
     }
 
     public AndroidElement getEmailElement(){
-        System.out.println("Entering email on login form");
+        log.info("Entering email on login form");
         return emailElement;
     }
 
     public AndroidElement getPassElement(){
-        System.out.println("Entering password on login form");
+        log.info("Entering password on login form");
         return passElement;
     }
 
     public AndroidElement getSigninElement()
     {
-        System.out.println("Clicking on sign in button on login form");
+        log.info("Clicking on sign in button on login form");
         return signinElement;
     }
 
     public AndroidElement getDashbrdElement()
     {
-        System.out.println("Verifying text on dashboard after login");
+        log.info("Verifying text on dashboard after login");
         return dashbrdElement;
     }
 }
