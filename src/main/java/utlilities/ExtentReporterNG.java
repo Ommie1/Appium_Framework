@@ -18,9 +18,11 @@ public class ExtentReporterNG implements IReporter {
     private ExtentReports extent;
     ExtentHtmlReporter htmlReporter;
 
+    public static String timeStamp = new SimpleDateFormat("yyyy.MM.dd.HH.mm.ss").format(new Date());
+
     public void generateReport(List<XmlSuite> xmlSuites, List<ISuite> suites, String outputDirectory) {
 
-        String timeStamp = new SimpleDateFormat("yyyy.MM.dd.HH.mm.ss").format(new Date());
+        System.out.println(timeStamp);
 
         htmlReporter = new ExtentHtmlReporter(System.getProperty("user.dir")+"\\Reports\\Test_Report"+timeStamp+".html");
         extent = new ExtentReports();
@@ -39,7 +41,6 @@ public class ExtentReporterNG implements IReporter {
         }
 
         extent.flush();
-
     }
 
     private void buildTestNodes(IResultMap tests, Status status) {

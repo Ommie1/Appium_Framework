@@ -2,8 +2,6 @@ package testFlows;
 
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.AndroidElement;
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import pageObjects.loginPage;
@@ -14,8 +12,6 @@ import java.util.concurrent.TimeUnit;
 
 public class login extends device_invoke {
 
-    public static Logger log = LogManager.getLogger(login.class.getName());
-
     @Test
     public void loginFlow() throws InterruptedException, IOException {
 
@@ -25,7 +21,6 @@ public class login extends device_invoke {
 
         // Verifying login flow
         System.out.println("Verifying login flow");
-
 
         // login page object class instance
         loginPage loginPageobject = new loginPage(driver);
@@ -47,11 +42,18 @@ public class login extends device_invoke {
         loginPageobject.getSigninElement().click();
 
         // Verify the dashboard text
+        Thread.sleep(10000);
         String dashText = loginPageobject.getDashbrdElement().getText();
         Assert.assertEquals(dashText,"My Appointments");
         System.out.println(dashText);
 
         // Login flow verified
         System.out.println("User has successfully log in to the system");
+
     }
+
+
+
+
+
 }

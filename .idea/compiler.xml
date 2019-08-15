@@ -6,8 +6,8 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Appium_Research" />
         <module name="appium_research" />
+        <module name="Appium_Research" />
       </profile>
     </annotationProcessing>
   </component>
