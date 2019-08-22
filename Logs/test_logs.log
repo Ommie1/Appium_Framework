@@ -1,3 +1,2 @@
-22:27:08.817 [main] INFO  pageObjects.loginPage - Entering password on login form
-22:27:14.780 [main] INFO  pageObjects.loginPage - Clicking on sign in button on login form
-22:27:25.314 [main] INFO  pageObjects.loginPage - Verifying text on dashboard after login
+16:36:13.031 [main] INFO  pageObjects.loginPage - Clicking on sign in button on login form
+16:36:23.419 [main] INFO  pageObjects.loginPage - Verifying text on dashboard after login
