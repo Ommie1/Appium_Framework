@@ -5,6 +5,7 @@ import io.appium.java_client.android.AndroidElement;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import pageObjects.loginPage;
+import utlilities.SendingEmail;
 import utlilities.device_invoke;
 
 import java.io.IOException;
@@ -49,11 +50,5 @@ public class login extends device_invoke {
 
         // Login flow verified
         System.out.println("User has successfully log in to the system");
-
     }
-
-
-
-
-
 }

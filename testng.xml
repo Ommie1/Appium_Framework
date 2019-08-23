@@ -3,12 +3,15 @@
 <suite name="Test Suite">
     <listeners>
         <listener class-name="utlilities.ExtentReporterNG"/>
+        <listener class-name="utlilities.ListernExecution"/>
     </listeners>
+
     <test name="UIGestures">
         <classes>
             <class name="testFlows.login" />
         </classes>
     </test>
 </suite>
+
 
 

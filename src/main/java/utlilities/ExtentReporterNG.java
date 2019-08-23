@@ -22,9 +22,10 @@ public class ExtentReporterNG implements IReporter {
 
     public void generateReport(List<XmlSuite> xmlSuites, List<ISuite> suites, String outputDirectory) {
 
-        System.out.println(timeStamp);
 
+        System.out.println(timeStamp);
         htmlReporter = new ExtentHtmlReporter(System.getProperty("user.dir")+"\\Reports\\Test_Report"+timeStamp+".html");
+        System.out.println(timeStamp);
         extent = new ExtentReports();
 
         extent.attachReporter(htmlReporter);

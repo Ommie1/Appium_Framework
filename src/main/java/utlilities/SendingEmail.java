@@ -1,5 +1,9 @@
 package utlilities;
 
+import org.junit.After;
+import org.testng.annotations.AfterSuite;
+import org.testng.annotations.Test;
+
 import javax.activation.DataHandler;
 import javax.activation.DataSource;
 import javax.activation.FileDataSource;
@@ -8,6 +12,8 @@ import javax.mail.internet.InternetAddress;
 import javax.mail.internet.MimeBodyPart;
 import javax.mail.internet.MimeMessage;
 import javax.mail.internet.MimeMultipart;
+import javax.websocket.OnClose;
+import javax.xml.ws.Action;
 import java.util.Properties;
 
 public class SendingEmail extends ExtentReporterNG {
@@ -31,8 +37,9 @@ public class SendingEmail extends ExtentReporterNG {
 //        fis.close();
 //        fos.close();
 //    }
-        public void SendReport() throws InterruptedException {
 
+        public void SendReport() throws InterruptedException {
+        System.out.println("On email function");
             Thread.sleep(10000);
 
             // Create object of Property file
@@ -92,6 +99,7 @@ public class SendingEmail extends ExtentReporterNG {
                 ExtentReporterNG exrep = new ExtentReporterNG();
 
                 // Mention the file which you want to send
+                // System.out.println("Report name is "+timeStamp);
                 String filename = System.getProperty("user.dir")+"\\Reports\\Test_Report"+timeStamp+".html";
 
                 // Create data source and pass the filename
