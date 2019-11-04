@@ -2,8 +2,9 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Test Suite">
     <listeners>
-        <listener class-name="utlilities.ExtentReporterNG"/>
-        <listener class-name="utlilities.ListernExecution"/>
+        <listener class-name="FrameworkUtilities.ExtendReportIntegration.ExtentReporterNG"/>
+        <listener class-name="FrameworkUtilities.ExecutionListners.ListnerAfterTestExecution"/>
+        <listener class-name="FrameworkUtilities.ExecutionListners.ListenerWhileTestExecution"/>
     </listeners>
 
     <test name="UIGestures">
