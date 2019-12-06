@@ -45,7 +45,7 @@ public class SendingEmail extends ExtentReporterNG {
 
                         protected PasswordAuthentication getPasswordAuthentication() {
 
-                            return new PasswordAuthentication("testactivity62@gmail.com", "appium@123");
+                            return new PasswordAuthentication("", "");
 
                         }
 
